@@ -1,0 +1,306 @@
+doctype
+html(lang='en')
+  head
+    
+    include includes/_styles
+  body
+
+    // Navbar
+    nav(class='navbar navbar-expand-lg navbar-light')
+      div(class='container padding-t')
+        a(class='navbar-brand' href='#')
+          img(class='img-fluid' style='width:220px;' src='img/logo.svg')
+        button(class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' )
+          span(class='fas fa-align-center')
+        div(class='collapse navbar-collapse justify-content-end' id='navbar')
+          ul(class='navbar-nav text-center')
+            li(class='nav-item active'): a(class='nav-link' href='#') Home
+                  span
+            li(class='nav-item'): a(class='nav-link' href='#') Pages
+                  span
+            li(class='nav-item'): a(class='nav-link' href='#') Events
+                  span
+            li(class='nav-item'): a(class='nav-link' href='#') Services
+                  span
+            li(class='nav-item'): a(class='nav-link' href='#') News
+                  span
+            li(class='nav-item'): a(class='nav-link' href='#') Cases
+                  span
+            li(class='nav-item'): a(class='nav-link' href='#') Elements
+                  span
+    // Header 
+    header
+      div(id='carouselExampleControls' class='carousel slide' data-ride='carousel')
+        div(class='carousel-inner')
+          div(class='carousel-item active')
+            img(src='img/slider/slide1.jpg' class='d-block w-100' alt='...')
+            div(class='heads1 wtc')
+              h2 DISCOVER THE WORLD <br/> OF BUSINESS
+              p Experience, accountability and innovation – all <br/> of which is reflected in the quality of our results.
+              button(class='but-bord read') Read More
+              button.but-bord Contact Us 
+          div(class='carousel-item')
+            img(src='img/slider/slide2.jpg' class='d-block w-100' alt='...')
+            div(class='heads2 wtc')
+              h2 Consulting and audit for <br/> small business
+              button.but-bord Our Servics
+          div(class='carousel-item')
+            img(src='img/slider/slide3.jpg' class='d-block w-100' alt='...')
+            div(class='heads3 wtc')
+              h2 MEET OUR BRAND NEW<br/>SOLUTION
+              p Company  provide outstanding service through <br/>  teamwork and innovation of which is reflected <br/> in the quality of our results.
+              button(class='but-bord read') Read More
+              button.but-bord Contact Us 
+        a(class='carousel-control-prev' href='#carouselExampleControls' role='button' data-slide='prev')
+          span(class='carousel-control-prev-icon' aria-hidden='true')
+          span(class='sr-only')
+
+        a(class='carousel-control-next' href='#carouselExampleControls' role='button' data-slide='next')
+          span(class='carousel-control-next-icon' aria-hidden='true')
+          span(class='sr-only')
+      
+
+    // Discover
+    section(class='discover pd-tb')
+      .container
+        div(class='title')
+          h2 Discover The World Of Business
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto necessitatibus velit quia dolore esse exercitationem
+
+        div(class='row  justify-content-center')
+          .world
+              img(class='img-fluid' src='img/1.jpg' alt='')
+              .comany
+                h4 About Comany
+                p 17 Years of experience helping <br/> people to find the best solutions.
+                span Read More
+          div(class='world mr0')
+              img(class='img-fluid' src='img/2.jpg' alt='')
+              .comany
+                h4 Our Mission
+                p 17 Years of experience helping <br/> people to find the best solutions.
+                span Read More
+
+
+    // Attribution
+    section(class='attribution pd-tb')
+      div(class='container-fluid text-center')
+        .title
+          h2 Attribution
+
+        div(class='row justify-content-center')
+          .attrib
+            .heding
+              span(class='far fa-lightbulb')
+              h5 Unique Ideas & Solutions
+              p Lorem ipsum dolor, sit amet consectetur,<br/>Totam suscipit iste autem quo
+          .attrib
+            .heding
+              span(class='far fa-snowflake')
+              h5 TARGETING & POSITIONING
+              p Lorem ipsum dolor, sit amet consectetur,<br/>Totam suscipit iste autem quo
+          div(class='attrib mr0')
+            .heding
+              span(class='fas fa-handshake')
+              h5 FRIENDLY CUSTOMER SERVICE
+              p Lorem ipsum dolor, sit amet consectetur,<br/>Totam suscipit iste autem quo
+
+    // Our Services
+    div(class='our-services pd-tb')
+      div(class='container-fluid')
+        .title
+          h2 Our Services
+          p We allow you to start without having to worry about making <br/> a mistake, as we use our outstanding experience.
+        div(class='row justify-content-center')
+          .services
+            .heding
+              img(class='img-fluid' src='img/our1.jpg')
+              span(class='fas fa-gem')
+              h5 Investment planning & <br/> strategy
+          .services
+            .heding
+              img(class='img-fluid' src='img/our2.jpg')
+              span(class='far fa-lightbulb')
+              h5 International Business <br/> Opportunities
+          div(class='services')
+            .heding
+              img(class='img-fluid' src='img/our3.jpg')
+              span(class='far fa-file-alt')
+              h5 Strategic & commercial <br/> approach
+          div(class='services mr0')
+            .heding
+              img(class='img-fluid' src='img/our4.jpg')
+              span(class='fas fa-key')
+              h5 Simple business <br/> answers and solutions
+
+    // Looking 
+    section(class='looking pd-tb')
+      .container
+        h4 Looking for a first-class business consultant?
+        button(class='but-bord') Read More
+    
+    // Choose
+    section(class='choose pd-tb')
+      .container
+        .title
+          h2 Why Choose us
+        .row 
+          div(class='col-lg-4 col-md-6')
+            div(class='chose')
+              i(class='fas fa-briefcase')
+              div(class='info')
+                h3 OPERATIONAL EXCELLENCE
+                p Company  provide outstanding service <br/> through teamwork, accountability and <br/> innovation of which is reflected.
+          div(class='col-lg-4 col-md-6')
+            div(class='chose')
+              i(class='fa fa-clipboard-list')
+              div(class='info')
+                h3 CONTINUOUS IMPROVEMENT
+                p Teamwork, experience, accountability and <br/> innovation – all of which is reflected in the <br/> quality of our results.
+          div(class='col-lg-4 col-md-6')
+            div(class='chose')
+              i(class='fas fa-cannabis')
+              div(class='info')
+                h3 INNOVATIVE SOLUTIONS
+                p Experience, accountability and innovation – <br/> all of which is reflected in the quality of our <br/> results.
+          div(class='col-lg-4 col-md-6')
+            div(class='chose')
+              i(class='fas fa-passport')
+              div(class='info')
+                h3 CERTIFIED EXPERTS
+                p We work buy-side and sell-side – give our <br/> clients hard-hitting answers and focus hard <br/> on the best opportunities.
+          div(class='col-lg-4 col-md-6')
+            div(class='chose')
+              i(class='fas fa-map-marked-alt')
+              div(class='info')
+                h3 TARGETING AND POSITIONING
+                p Before we talk destination, we shine a <br/> spotlight across your organization to fully <br/> understand its people and technology.
+          div(class='col-lg-4 col-md-6')
+            div(class='chose')
+              i(class='fas fa-globe-americas')
+              div(class='info')
+                h3 PERSONAL APPROACH
+                p We help entrepreneurs get their act together <br/> before they talk to investors. Personal <br/> approach is a key in our consultation service.
+   
+
+    // Number
+    section(class='number pd-tb')
+      .container
+        .row
+          div(class='col-lg-3 col-md-6')
+            .numb
+              h2 17 +
+              p Years of experience
+          div(class='col-lg-3 col-md-6')
+            .numb
+              h2 1267
+              p Satisfied customers
+          div(class='col-lg-3 col-md-6')
+            div(class='numb mr-0')
+              h2 278
+              p Finished projects
+          div(class='col-lg-3 col-md-6')
+            div(class='numb mr0')
+              h2 350
+              p Employees worldwide
+
+
+    // People
+    section(class='People pd-tb')
+      .container
+        .title
+          h2 WHAT PEOPLE SAY
+          p Find out why people love working with StylemixThemes LLC
+        div(id='carouselExampleIndicators' class='carousel slide' data-ride='carousel')
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="oll active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class='oll'></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class='oll'></li>
+          </ol>
+          div(class='carousel-inner')
+            div(class='carousel-item active')
+              div(class='items')
+                div(class='fotolia')
+                  img(class='img-fluid' src='img/Fotolia/Fotolia.jpg' alt='')
+                  .cone
+                    p
+                    <i class="fas fa-quote-right"></i>  
+                  p DALMAR JOHNSON
+                  span Founder of WebFlex Inc.
+              p.pree We have chosen to work extensively with PearlBusiness because of their quality services, including their On-the-Job Training program and other employer incentives that have helped reduce our hiring costs. Attract and retain quality, high-paying customers!
+            div(class='carousel-item')
+              div(class='items')
+                div(class='fotolia')
+                  img(class='img-fluid' src='img/Fotolia/Fotolia1.jpg' alt='')
+                  .cone
+                    p
+                    <i class="fas fa-quote-right"></i>  
+                  p DAVID S. MORRIS
+                  span CEO at Entavo LLC.
+              p.pree Pearl Business` does most of its new employee training on the job. The employer incentives offered through On-the-Job Training program have helped reduce some of our training costs for new hires. Automate your business, so you can leave for days, weeks, or even months at a time.
+            div(class='carousel-item')
+              div(class='items')
+                div(class='fotolia')
+                  img(class='img-fluid' src='img/Fotolia/Fotolia2.jpg' alt='')
+                  .cone
+                    p
+                    <i class="fas fa-quote-right"></i>  
+                  p VICTORIA PORTER
+                  span CTO at Smarty PTY.
+              p.pree In collaboration with public partners, PearlBusiness connects local businesses and job-seeking residents with government-funded resources. Our range of programs offers every service from talent recruiting and career development to clinical case management. Work fewer hours — and make more money!
+                
+    // Cuntact Us
+    section(class='contact-us pd-tb')
+      .container
+        h2 REQUEST A CALL BACK
+        form(action="")
+          input(type="text" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'")
+          input(type="text" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'")
+          input(type="text" placeholder="Fone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Fone'")
+          input(type="text" placeholder="Country" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Country'")
+          input(type="text" placeholder="Your Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Message'")
+          button(type="submit" class='but-bord') submit
+
+    // Footer
+    footer
+      .container
+        .row
+          div(class='col-lg-4')
+            ul(class='socil list-unstyled')
+              li: a(href='#')
+                  i(class='fas fa-map-marker-alt')
+                  |14 Tottenham Road, N1 4EP, <br/> London, United Kingdom
+              li: a(href='tel:+201205740051')
+                  i(class='fas fa-mobile-alt')
+                  |+1 222-222-2222
+              li: a(href="mailto:head@transportation.com")
+                  i(class='far fa-envelope')
+                  | head@transportation.com 
+          div(class='col-lg-4')
+            ul(class='socil list-unstyled')
+              li: a(href='#')
+                  i(class='fas fa-map-marker-alt')
+                  |14 Tottenham Road, N1 4EP, <br/> London, United Kingdom
+              li: a(href='tel:+201205740051')
+                  i(class='fas fa-mobile-alt')
+                  |+1 222-222-2222
+              li: a(href="mailto:head@transportation.com")
+                  i(class='far fa-envelope')
+                  | head@transportation.com 
+          div(class='col-lg-4')
+            ul(class='socil list-unstyled border-0')
+              li: a(href='#')
+                  i(class='fas fa-map-marker-alt')
+                  |14 Tottenham Road, N1 4EP, <br/> London, United Kingdom
+              li: a(href='tel:+201205740051')
+                  i(class='fas fa-mobile-alt')
+                  |+1 222-222-2222
+              li: a(href="mailto:head@transportation.com")
+                  i(class='far fa-envelope')
+                  | head@transportation.com 
+
+      p Copyright &copy; 2019 Designed By 
+        span  Ahmed Badr
+
+    script(src='http://localhost:35729/livereload.js')
+    include includes/_scripts
